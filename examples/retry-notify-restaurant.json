@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:EXAMPLE",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "1970-01-01T00-00:00.000Z",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "MessageId": "0ff38f76-31b2-4dcd-8015-e3f42fb35145",
+        "Message": "{\"orderId\":\"f5d70718-aa75-4dca-9cca-18a763bf6162\",\"userEmail\":\"harderworking.class@gmail.com\",\"restaurantName\":\"Fangtasia\"}",
+        "MessageAttributes": {},
+        "Type": "Notification",
+        "UnsubscribeUrl": "EXAMPLE",
+        "TopicArn": "arn:aws:sns:EXAMPLE",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}
