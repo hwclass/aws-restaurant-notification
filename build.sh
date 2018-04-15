@@ -14,7 +14,7 @@ instruction()
 if [ $# -eq 0 ]; then
   instruction
   exit 1
-elif [ "$1" = "int-test" ] && [ $# -eq 1 ]; then
+elif [ "$1" = "integration-test" ] && [ $# -eq 1 ]; then
   npm install
 
   npm run integration-test
